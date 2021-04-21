@@ -1,7 +1,7 @@
 const fs = require('fs');
 const pool = require('../lib/utils/pool');
 
-describe.skip('exercise 4', () => {
+describe('exercise 4', () => {
   afterAll(() => pool.end());
 
   it('find the average film length by category', async () => {
