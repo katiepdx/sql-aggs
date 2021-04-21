@@ -1,7 +1,7 @@
 const fs = require('fs');
 const pool = require('../lib/utils/pool');
 
-describe.skip('exercise 3', () => {
+describe('exercise 3', () => {
   afterAll(() => pool.end());
 
   it('find the average rental amount by country', async () => {
