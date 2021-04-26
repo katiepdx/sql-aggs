@@ -1,7 +1,7 @@
 const fs = require('fs');
 const pool = require('../lib/utils/pool');
 
-describe.skip('exercise 6', () => {
+describe('exercise 6', () => {
   afterAll(() => pool.end());
 
   it('find customer ranking by total amount spent', async () => {
